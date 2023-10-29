@@ -9,6 +9,10 @@
 
 :root {
 
+  --Solid-Heading:#42446E;
+  --Gradient-Heading:linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+  --dark-content:#666;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
