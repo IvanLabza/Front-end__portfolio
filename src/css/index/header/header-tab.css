@@ -1,0 +1,56 @@
+@media screen and (min-width:768px) {
+    .header {}
+
+
+    .flex-tel-wrapper {
+       
+    }
+
+    .header-link {}
+
+    .header-tel-open {
+        display: none;
+    }
+
+    .js-open-menu {}
+
+    .header-tel {
+        position: static;
+            visibility: visible;
+            transform: unset;
+            width: unset;
+            height: unset;
+            right: unset;
+            background: unset;
+            display: flex;
+            gap: 21px;
+    }
+
+    .js-menu-container {
+        margin: unset;
+        padding: unset;
+    }
+
+    .header-tel-close {}
+
+    .js-close-menu {
+        display: none;
+    }
+
+    .header-list {
+        flex-direction: row;
+    }
+
+    .header-list__element {}
+
+    .header-list__link {}
+
+    .header-svg {
+        margin: unset;
+    }
+
+    .header-svg__item {}
+
+    .header-svg-icon {}
+
+}

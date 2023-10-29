@@ -5,6 +5,7 @@
 .flex-tel-wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .header-link {
