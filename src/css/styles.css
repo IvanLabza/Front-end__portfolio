@@ -1,5 +1,7 @@
-@import url('./reset.css');
-@import url('./index/index.css');
+@import url(./reset.css);
+@import url(./index/index.css);
+@import url(./about/about.css);
+@import url(./contact/contact.css);
 
 .container{
   margin: 0 auto;
