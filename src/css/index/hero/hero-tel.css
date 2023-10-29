@@ -3,8 +3,8 @@
 }
 
 .hero-img{
-    border-radius: 50%;
-        border: 9px solid #E70FAA;
+    border-radius: 15%;
+        border: 2px solid #E70FAA;
             box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20);
 }
 
