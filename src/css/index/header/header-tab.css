@@ -6,7 +6,9 @@
        
     }
 
-    .header-link {}
+    .header-link {
+        font-size: 27px;
+    }
 
     .header-tel-open {
         display: none;
@@ -43,7 +45,9 @@
 
     .header-list__element {}
 
-    .header-list__link {}
+    .header-list__link {
+        font-size: 15px;
+    }
 
     .header-svg {
         margin: unset;

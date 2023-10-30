@@ -3,4 +3,8 @@
         padding-top: 50px;
     }
     
+
+         .header-list__link {
+             font-size: 21px;
+         }
 }

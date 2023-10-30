@@ -10,13 +10,27 @@
 
 .header-link {
     background: linear-gradient(90deg, #0a3c51 -2.06%, #783365 100%);
+    display: inline-block;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: DM Sans;
-    font-size: 20px;
-    font-weight: 500;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
     line-height: 26px;
+    padding: 7px 10px;
+    border: 1px solid #db7373;
+    border-radius: 256px;
+    transition: background 1.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.header-link:is(:hover,:focus){
+    background: linear-gradient(90deg, #84356d -2.06%, #156c91 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .header-tel-open {}
@@ -45,6 +59,11 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 26px;
+    transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-list__link:is(:hover, :focus){
+    color:orangered;
 }
 
 .header-svg {
@@ -55,7 +74,7 @@
 
 .header-svg__item {}
 
-.header-svg-icon {}
+
 
 .header-tel {
     display: block;
