@@ -155,3 +155,20 @@
 .is-dart{
     background-color: var(--background-color-dark);
 }
+
+.header_body_mode{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #666;
+    padding: 5px;
+    border-radius: 255px;
+}
+
+.header_body_mode span{
+color: #666;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+}

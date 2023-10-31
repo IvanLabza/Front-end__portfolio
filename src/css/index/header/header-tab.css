@@ -1,4 +1,4 @@
-@media screen and (min-width:815px) {
+@media screen and (min-width:919px) {
     .header {}
 
         .is-dart .header-tel {
@@ -46,6 +46,7 @@
 
     .header-list {
         flex-direction: row;
+        align-items: center;
     }
 
     .header-list__element {}
@@ -56,6 +57,7 @@
 
     .header-svg {
         margin: unset;
+        align-items: center;
     }
 
     .header-svg__item {}
