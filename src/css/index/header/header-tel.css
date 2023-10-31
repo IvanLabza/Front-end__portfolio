@@ -138,20 +138,20 @@
     right: 49%;
     background-color: #aa3339;
     border-radius: 50%;
-    transition: transform 250ms ease-in-out;
+    transition: transform 450ms ease-in-out;
 }
 
 .is-dart .header__btn::after{
     transform: translateX(24px);
-    transition: transform 250ms ease-in-out;
+    transition: transform 450ms ease-in-out;
 }
 
 
 .is-dart .header__btn{
-    background-color: #fff;
+    background-color: var(--background-color-light);
 }
 
 
 .is-dart{
-    background-color: #000;
+    background-color: var(--background-color-dark);
 }
