@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    align-items: center
 }
 
 .header-link {
@@ -33,7 +34,9 @@
 
 }
 
-.header-tel-open {}
+.is-dart .header-tel-open {
+    fill: #fff;
+}
 
 .header-tel {}
 
@@ -74,7 +77,10 @@
 
 .header-svg__item {}
 
+.is-dart .header-tel{
+    background-color: #fff;
 
+}
 
 .header-tel {
     display: block;
@@ -88,7 +94,8 @@
     background-color: var(--write-title);
     z-index: 20;
     transform: translateX(100%);
-    transition: transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out,background-color 0.5s ease-in-out,
+        color 0.5s ease-in-out;
     background-color: #191919;
 }
 
@@ -108,4 +115,43 @@
 .js-menu-container {
     margin: 0 auto;
     padding: 0 10px;
+}
+
+.header__btn{
+    display: inline-flex;
+    padding: 15.5px 27px;
+    border-radius: 32px;
+    outline: transparent;
+    border: 2px solid;
+    border-color: #783365;
+    position: relative;
+    background-color: #000;
+}
+
+.header__btn::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 25px;
+    top: 3px;
+    right: 49%;
+    background-color: #aa3339;
+    border-radius: 50%;
+    transition: transform 250ms ease-in-out;
+}
+
+.is-dart .header__btn::after{
+    transform: translateX(24px);
+    transition: transform 250ms ease-in-out;
+}
+
+
+.is-dart .header__btn{
+    background-color: #fff;
+}
+
+
+.is-dart{
+    background-color: #000;
 }
