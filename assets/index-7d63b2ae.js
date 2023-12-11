@@ -1,1 +1,0 @@
-import"./tel-menu-0dffaa64.js";(()=>{const o=document.querySelector(".element"),t=document.querySelector(".toggle-mode-button"),r=document.querySelector(".toggle-mode-button"),e=()=>{const n=t.getAttribute("aria-expanded")==="true"||!1;t.setAttribute("aria-expanded",!n),o.classList.toggle("is-dart")};t.addEventListener("click",e),r.addEventListener("click",e)})();
