@@ -1,67 +1,73 @@
-@media screen and (min-width:919px) {
-    .header {}
+@media screen and (min-width: 919px) {
+  .header {
+  }
 
-        .is-dart .header-tel {
-            background-color: unset;
-            
-        }
+  .is-dart .header-tel {
+    background-color: unset;
+  }
 
+  .flex-tel-wrapper {
+  }
 
-    .flex-tel-wrapper {
-       
-    }
+  .header-link {
+    font-size: 27px;
+  }
 
-    .header-link {
-        font-size: 27px;
-    }
+  .header-tel-open {
+    display: none;
+  }
 
-    .header-tel-open {
-        display: none;
-    }
+  .js-open-menu {
+  }
 
-    .js-open-menu {}
+  .header-tel {
+    position: static;
+    visibility: visible;
+    transform: unset;
+    width: unset;
+    height: unset;
+    right: unset;
+    background: unset;
+    display: flex;
+    gap: 21px;
+  }
 
-    .header-tel {
-        position: static;
-            visibility: visible;
-            transform: unset;
-            width: unset;
-            height: unset;
-            right: unset;
-            background: unset;
-            display: flex;
-            gap: 21px;
-    }
+  .js-menu-container {
+    margin: unset;
+    padding: unset;
+  }
 
-    .js-menu-container {
-        margin: unset;
-        padding: unset;
-    }
+  .header_body_mode {
+    margin-bottom: 0;
+  }
 
-    .header-tel-close {}
+  .header-tel-close {
+  }
 
-    .js-close-menu {
-        display: none;
-    }
+  .js-close-menu {
+    display: none;
+  }
 
-    .header-list {
-        flex-direction: row;
-        align-items: center;
-    }
+  .header-list {
+    flex-direction: row;
+    align-items: center;
+  }
 
-    .header-list__element {}
+  .header-list__element {
+  }
 
-    .header-list__link {
-        font-size: 15px;
-    }
+  .header-list__link {
+    font-size: 15px;
+  }
 
-    .header-svg {
-        margin: unset;
-        align-items: center;
-    }
+  .header-svg {
+    margin: unset;
+    align-items: center;
+  }
 
-    .header-svg__item {}
+  .header-svg__item {
+  }
 
-    .header-svg-icon {}
-
+  .header-svg-icon {
+  }
 }
